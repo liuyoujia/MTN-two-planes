@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 5bmh.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.0
+processed angle : 0.1
+processed dihedral : 0.1
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.09
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.008(  935)   0.007(  841)   0.013(   94)   0.352(  935)   0.335(  841)   0.482(   94)
+  angle      0.932( 1692)   0.881( 1508)   1.274(  184)   0.429( 1692)   0.419( 1508)   0.505(  184)
+  dihedral  14.588(  360)  11.616(  332)  33.707(   28)   0.852(  360)   0.794(  332)   1.360(   28)
+
+Selecting bonds        Time to select bonds        : 0.01s
+Selecting angles       Time to select angles       : 0.02s
+Selecting dihedrals    Time to select dihedrals    : 0.01s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.005(    6)   0.000(    0)   0.005(    6)   0.272(    6)   0.000(    0)   0.272(    6)
+  angle      0.905(   18)   0.000(    0)   0.905(   18)   0.302(   18)   0.000(    0)   0.302(   18)
+  dihedral   4.188(    4)   0.000(    0)   4.188(    4)   0.070(    4)   0.000(    0)   0.070(    4)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " C1 AMTN A 101 " - " N1 AMTN A 101 " [ 1.477, 1.485, -0.008, 2.00e-02, 2.50e+03, 1.68e-01]
+   2 " C1 BMTN A 101 " - " N1 BMTN A 101 " [ 1.477, 1.484, -0.007, 2.00e-02, 2.50e+03, 1.13e-01]
+   3 " N1 BMTN A 101 " - " O1 BMTN A 101 " [ 1.258, 1.264, -0.006, 2.00e-02, 2.50e+03, 9.57e-02]
+   4 " C5 AMTN A 101 " - " N1 AMTN A 101 " [ 1.480, 1.475,  0.005, 2.00e-02, 2.50e+03, 5.10e-02]
+   5 " N1 AMTN A 101 " - " O1 AMTN A 101 " [ 1.258, 1.260, -0.002, 2.00e-02, 2.50e+03, 7.58e-03]
+   6 " C5 BMTN A 101 " - " N1 BMTN A 101 " [ 1.480, 1.480,  0.000, 2.00e-02, 2.50e+03, 2.46e-04]
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C6 AMTN A 101 " - " C5 AMTN A 101 " - " N1 AMTN A 101 " [ 108.85, 110.70, -1.85, 3.00, 0.111, 3.80e-01]
+   2 " C6 BMTN A 101 " - " C5 BMTN A 101 " - " N1 BMTN A 101 " [ 108.85, 110.40, -1.55, 3.00, 0.111, 2.68e-01]
+   3 " C9 AMTN A 101 " - " C1 AMTN A 101 " - " N1 AMTN A 101 " [ 109.97, 111.51, -1.54, 3.00, 0.111, 2.62e-01]
+   4 " C9 BMTN A 101 " - " C1 BMTN A 101 " - " N1 BMTN A 101 " [ 109.97, 111.43, -1.46, 3.00, 0.111, 2.37e-01]
+   5 " C7 BMTN A 101 " - " C5 BMTN A 101 " - " N1 BMTN A 101 " [ 109.16, 108.09,  1.07, 3.00, 0.111, 1.27e-01]
+   6 " C1 AMTN A 101 " - " N1 AMTN A 101 " - " O1 AMTN A 101 " [ 122.58, 123.64, -1.06, 3.00, 0.111, 1.24e-01]
+   7 " C3 BMTN A 101 " - " C5 BMTN A 101 " - " N1 BMTN A 101 " [  99.93, 100.55, -0.62, 3.00, 0.111, 4.23e-02]
+   8 " C1 BMTN A 101 " - " N1 BMTN A 101 " - " C5 BMTN A 101 " [ 114.61, 114.00,  0.61, 3.00, 0.111, 4.16e-02]
+   9 " C1 AMTN A 101 " - " N1 AMTN A 101 " - " C5 AMTN A 101 " [ 114.61, 114.04,  0.57, 3.00, 0.111, 3.61e-02]
+  10 " C5 BMTN A 101 " - " N1 BMTN A 101 " - " O1 BMTN A 101 " [ 122.20, 121.68,  0.52, 3.00, 0.111, 3.05e-02]
+  11 " C5 AMTN A 101 " - " N1 AMTN A 101 " - " O1 AMTN A 101 " [ 122.20, 121.69,  0.51, 3.00, 0.111, 2.93e-02]
+  12 " C1 BMTN A 101 " - " N1 BMTN A 101 " - " O1 BMTN A 101 " [ 122.58, 122.95, -0.37, 3.00, 0.111, 1.56e-02]
+  13 " C7 AMTN A 101 " - " C5 AMTN A 101 " - " N1 AMTN A 101 " [ 109.16, 109.53, -0.37, 3.00, 0.111, 1.49e-02]
+  14 " C3 AMTN A 101 " - " C5 AMTN A 101 " - " N1 AMTN A 101 " [  99.93,  99.58,  0.35, 3.00, 0.111, 1.34e-02]
+  15 " C2 BMTN A 101 " - " C1 BMTN A 101 " - " N1 BMTN A 101 " [  99.99, 100.28, -0.29, 3.00, 0.111, 9.43e-03]
+  16 " C8 BMTN A 101 " - " C1 BMTN A 101 " - " N1 BMTN A 101 " [ 109.60, 109.44,  0.16, 3.00, 0.111, 2.68e-03]
+  17 " C8 AMTN A 101 " - " C1 AMTN A 101 " - " N1 AMTN A 101 " [ 109.60, 109.48,  0.12, 3.00, 0.111, 1.60e-03]
+  18 " C2 AMTN A 101 " - " C1 AMTN A 101 " - " N1 AMTN A 101 " [  99.99, 100.08, -0.09, 3.00, 0.111, 8.72e-04]
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C2 BMTN A 101 " - " C1 BMTN A 101 " - " N1 BMTN A 101 " - " O1 BMTN A 101 " [  180.00,  174.34,    5.66,  1,   60.00, 2.78e-04,    0.01]
+   2 " C3 BMTN A 101 " - " C5 BMTN A 101 " - " N1 BMTN A 101 " - " O1 BMTN A 101 " [  180.00, -175.49,   -4.51,  1,   60.00, 2.78e-04, 8.26e-03]
+   3 " C3 AMTN A 101 " - " C5 AMTN A 101 " - " N1 AMTN A 101 " - " O1 AMTN A 101 " [  180.00,  176.78,    3.22,  1,   60.00, 2.78e-04, 4.20e-03]
+   4 " C2 AMTN A 101 " - " C1 AMTN A 101 " - " N1 AMTN A 101 " - " O1 AMTN A 101 " [ -180.00, -177.28,   -2.72,  1,   60.00, 2.78e-04, 3.00e-03]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None
